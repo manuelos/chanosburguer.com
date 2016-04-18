@@ -1,0 +1,13 @@
+.contact-bg{
+	background: #eaeaea;
+	padding: 150px;
+}
+@media (max-width: 760px){
+	.contact-bg{
+		padding:50px;
+	}
+}
+.center-captcha{
+	margin-left: auto !important;
+	margin-right: auto !important;
+}

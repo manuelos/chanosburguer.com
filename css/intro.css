@@ -1,0 +1,79 @@
+html,body{height:100%}
+#contenedor{
+	height:100%;
+	width:100%;
+	display:-webkit-flex;
+	display:-moz-flex;
+	display:-o-flex;
+	display:-ms-flex;
+	display:flex;-webkit-flex-flow:row no-wrap;
+	-moz-flex-flow:row no-wrap;
+	-o-flex-flow:row no-wrap;
+	-ms-flex-flow:row no-wrap;
+	flex-flow:row no-wrap;
+	-webkit-align-items:stretch;
+	-moz-align-items:stretch;
+	-o-align-items:stretch;
+	-ms-align-items:stretch;
+	align-items:stretch}
+	@media (max-width: 760px){
+		#contenedor{
+			-webkit-flex-direction:row;
+			-moz-flex-direction:row;
+			-o-flex-direction:row;
+			-ms-flex-direction:row;
+			flex-direction:row;
+			-webkit-flex-wrap:wrap;
+			-moz-flex-wrap:wrap;
+			-ms-flex-wrap:wrap;
+			-o-flex-wrap:wrap;
+			flex-wrap:wrap}}
+			.cul{background:url(../img/bg-cul.jpg);
+				-webkit-background-size:cover;
+				-mos-background-size:cover;
+				-o-background-size:cover;
+				-ms-background-size:cover;
+				background-size:cover;width:100%}
+				.contenedor-cul{
+					height:100%;
+					width:100%;
+					display:-webkit-flex;
+					display:-moz-flex;
+					display:-o-flex;
+					display:-flex;
+					-webkit-justify-content:center;
+					-moz-justify-content:center;
+					-o-justify-content:center;
+					-ms-justify-content:center;
+					justify-content:center;
+					-webkit-align-items:center;
+					-moz-align-items:center;
+					-o-align-items:center;
+					-ms-align-items:center;
+					align-items:center;cursor:pointer}
+					.maz{background:url(../img/bg-maz.jpg);
+						-webkit-background-size:cover;
+						-mos-background-size:cover;
+						-o-background-size:cover;
+						-ms-background-size:cover;
+						background-size:cover;width:100%}
+						.contenedor-maz{
+							height:100%;
+							width:100%;
+							display:-webkit-flex;
+							display:-moz-flex;
+							display:-o-flex;
+							display:-flex;
+							-webkit-justify-content:center;
+							-moz-justify-content:center;
+							-o-justify-content:center;
+							-ms-justify-content:center;
+							justify-content:center;
+							-webkit-align-items:center;
+							-moz-align-items:center;
+							-o-align-items:center;
+							-ms-align-items:center;
+							align-items:center;cursor:pointer}
+.img-size{width:28%}
+@media (max-width: 760px){.maz{background:url(../img/bg-maz-small.jpg);height:50%}.cul{background:url(../img/bg-cul-small.jpg);height:50%}.img-size{width:20%}}
+@media (max-width: 400px){.maz{background:url(../img/bg-maz-small-sm.jpg);height:50%}.cul{background:url(../img/bg-cul-small-sm.jpg);height:50%}.img-size{width:40%}}
